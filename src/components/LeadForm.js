@@ -44,7 +44,7 @@ export const LeadForm = () => {
       axios.post(url, JSON.stringify(body), config)
       .then((result) => {
         debugger;
-        console.log(result);
+        console.log(result.data);
         // Do somthing
       })
       .catch((err) => {
